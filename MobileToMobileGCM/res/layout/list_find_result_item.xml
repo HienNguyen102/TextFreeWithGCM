@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp" >
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:contentDescription="@string/accept"
+        android:src="@drawable/user_chat_ic" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical"
+        tools:ignore="RtlHardcoded" 
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvNameUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ibAddFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:contentDescription="@string/accept"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_action_add_person" />
+
+</LinearLayout>

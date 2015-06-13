@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/logout_tv"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/ivlogout"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_marginLeft="5dip"
+            android:contentDescription="@string/accept"
+            android:src="@drawable/ic_logout"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_pass_tv"
+            android:textStyle="bold" 
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/ivChangePassword"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_marginLeft="5dip"
+            android:contentDescription="@string/accept"
+            android:src="@drawable/ic_edit"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/notification_tv"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switchNoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/vibrate_tv"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switchVibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/notification_sound_tv"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switchSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/select_noti_sound_tv"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <RadioGroup
+            android:id="@+id/rgSelectSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <RadioButton
+                android:id="@+id/rd00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_sound" />
+
+            <RadioButton
+                android:id="@+id/rd01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/suprise_sound" />
+
+            <RadioButton
+                android:id="@+id/rd02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/springy_sound" />
+
+            <RadioButton
+                android:id="@+id/rd03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kidding_sound" />
+
+            <RadioButton
+                android:id="@+id/rd04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wee_tziu_sound" />
+
+            <RadioButton
+                android:id="@+id/rd05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/martian_gun_sound" />
+        </RadioGroup>
+    </ScrollView>
+
+</LinearLayout>

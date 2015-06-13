@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+		<!-- <item name="android:se"> @drawable/ic_search</item> -->
+	</style>
+</resources>

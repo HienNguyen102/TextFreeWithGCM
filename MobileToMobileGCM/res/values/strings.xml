@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TextFree</string>
+    <string name="chat_hint">Enter text here</string>
+    <string name="net_con_err">Internet Connection Error</string>
+    <string name="net_con_err_suggest2">Do you want to open SMS app, you must pay a sum or go to wifi setting?</string>
+    <string name="enable_wifi">Enable wifi</string>
+    <string name="enable_sms_app">Open SMS app</string>
+    <string name="net_con_err_suggest">Please connect to internet, do you want to go to wifi setting?</string>
+    <string name="ok_dialog">OK</string>
+    <string name="cancel_dialog">Close</string>
+    <string name="exit_title_dialog">Exit application</string>
+    <string name="exit_confirm_dialog">Do you want to exit?</string>
+    <string name="wait_reg" tools:ignore="TypographyEllipsis">Attempting register ...</string>
+    <string name="wait_network" tools:ignore="TypographyEllipsis">Working ...</string>
+    <string name="wait_login" tools:ignore="TypographyEllipsis">Attempting login ...</string>
+    <string name="wait_sending" tools:ignore="TypographyEllipsis">Please wait ...</string>
+    <string name="username_tv">Username:</string>
+    <string name="enter_username_hint">Enter your username</string>
+    <string name="password_tv">Password:</string>
+    <string name="new_password_tv">New password:</string>
+    <string name="password_confirm_tv">Confirm your password:</string>
+    <string name="new_password_confirm_tv">Confirm your new password:</string>
+    <string name="login_btn">Login</string>
+    <string name="register_btn">Register</string>
+    <string name="retrieve_btn">Retrieve</string>
+    <string name="login_suc">Login successful!</string>
+    <string name="login_fai">Invalid Credentials!</string>
+    <string name="reg_err">Registration Error!</string>
+    <string name="change_pass_err">Some Error! Please try again later.</string>
+    <string name="reg_err_ask">Please enter your details</string>
+    <string name="change_pass_err_ask">Please enter your password</string>
+    <string name="reg_err_exist_username">Sorry username you entered already exist, try with another one</string>
+    <string name="reg_not_exist_username">Username is suitable to use</string>
+    <string name="reg_err_gcm_registered">We cognize your device already registered with our server at least one time, you need to clear application data to register new account or do you need some help to retrieve your previous account</string>
+    <string name="reg_succ">Your account have created successfully!</string>
+    <string name="change_pass_succ">Your account have changed password successfully!</string>
+    <string name="send_to_tv">"Send To: "</string>
+    <string name="noti_from_group">Group: </string>
+    <string name="action_settings">Settings</string>
+    <string name="content_msg_blank">Please enter some text </string>
+    <string name="messages_noti_tit">Messages from</string>
+    <string name="messages_noti_tit_group">Group</string>
+    <string name="grid_item_selected">user selected</string>
+    <string name="find_person_et">Find person by name</string>
+    <string name="find_friend_et">Find your friend by name</string>
+    <string name="sender">You</string>
+    <string name="type_group_name">Enter group name</string>
+    <string name="remember_login_tv">Remember</string>
+    <string name="retreive_fai">You provided information is not appropriate</string>
+    <string name="retreive_info">Your username is %1$s and password is %2$s</string>
+    <string name="change_pass_tv">Change password</string>
+    <string name="add_to_group">Add to group</string>
+    <string name="vibrate_tv">Vibrate</string>
+    <string name="notification_tv">Notification</string>
+    <string name="notification_display_mess">Display message notifications in status bar</string>
+    <string name="notification_sound_tv">Notification sound</string>
+    <string name="select_noti_sound_tv">Select notification sound</string>
+    <string name="default_sound">Default</string>
+    <string name="suprise_sound">Surprise</string>
+    <string name="springy_sound">Springy</string>
+    <string name="kidding_sound">Kidding</string>
+    <string name="wee_tziu_sound">Wee tziu</string>
+    <string name="martian_gun_sound">Martian gun</string>
+    <string name="friend_tv">Friend</string>
+    <string name="add_friend">Add friend</string>
+    <string name="your_old_pass_tv">Your old password</string>
+    <string name="pass_wrong">Passwords don\'t match</string>
+    <string name="add_friend_success">%1$s are now your friend.</string>
+    <string name="ask_unfriend">Are you sure to unfriend?</string>
+    <string name="unfriend">Unfriend</string>
+    <string name="unfriend_succ">Unfriend successfully!</string>
+    <string name="logout_tv">Logout</string>
+</resources>

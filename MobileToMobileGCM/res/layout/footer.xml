@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/emoticons_button"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.15"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_smiley" />
+
+    <EditText
+        android:id="@+id/etSmsContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.85"
+        android:hint="@string/chat_hint"
+        android:inputType="textMultiLine" />
+
+    <ImageButton
+        android:id="@+id/btnSend"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:padding="4dp"
+        android:background="@null"
+        android:contentDescription="@string/accept"
+        android:src="@drawable/ic_action_send_now" />
+
+</LinearLayout>

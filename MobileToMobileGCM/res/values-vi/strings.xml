@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TextFree</string>
+    <string name="chat_hint">Nhập tin nhắn</string>
+    <string name="net_con_err">Lỗi kết nối mạng</string>
+    <string name="net_con_err_suggest2">Bạn có muốn sử dụng ứng dụng nhắn tin mất phí, hay đến trình cài đặt wifi?</string>
+    <string name="enable_wifi">Bật wifi</string>
+    <string name="enable_sms_app">Gửi tin có phí</string>
+    <string name="net_con_err_suggest">Hãy kết nối mạng, bạn có muốn bật wifi?</string>
+    <string name="ok_dialog">Đồng ý</string>
+    <string name="cancel_dialog">Đóng</string>
+    <string name="exit_title_dialog">Thoát ứng dụng</string>
+    <string name="exit_confirm_dialog">Bạn có muốn thoát?</string>
+    <string name="wait_reg" tools:ignore="TypographyEllipsis">Đang đăng ký ...</string>
+    <string name="wait_network" tools:ignore="TypographyEllipsis">Đang hoạt động ...</string>
+    <string name="wait_login" tools:ignore="TypographyEllipsis">Đang đăng nhập ...</string>
+    <string name="wait_sending" tools:ignore="TypographyEllipsis">Xin hãy đợi ...</string>
+    <string name="username_tv">Tên đăng nhập:</string>
+    <string name="enter_username_hint">Nhập tên đăng nhập</string>
+    <string name="password_tv">Mật khẩu:</string>
+    <string name="new_password_tv">Mật khẩu mới:</string>
+    <string name="password_confirm_tv">Nhập lại mật khẩu:</string>
+    <string name="new_password_confirm_tv">Nhập lại mật khẩu mới:</string>
+    <string name="login_btn">Đăng nhập</string>
+    <string name="register_btn">Đăng ký</string>
+    <string name="retrieve_btn">Lấy thông tin đăng nhập</string>
+    <string name="login_suc">Đăng nhập thành công!</string>
+    <string name="login_fai">Thông tin nhập không phù hợp!</string>
+    <string name="reg_err">Lỗi đăng ký!</string>
+    <string name="change_pass_err">Đã xảy ra lỗi, xin vui lòng thử lại sau.</string>
+    <string name="reg_err_ask">Hãy nhập đầy đủ thông tin</string>
+    <string name="change_pass_err_ask">Hãy nhập mật khẩu của bạn</string>
+    <string name="reg_err_exist_username">Thật tiếc, tên đăng nhập bạn vừa nhập đã tồn tại, hãy thử với một tên khác.</string>
+    <string name="reg_not_exist_username">Tên đăng nhập có thể sử dụng</string>
+    <string name="reg_err_gcm_registered">Chúng tôi phát hiện thiết bị của bạn đã đăng ký với máy chủ ít nhất một lần, bạn cần xóa dữ liệu của ứng dụng để đăng ký một tài khoản mới hay bạn cần trợ giúp để lấy thông tin tài khoản cũ?</string>
+    <string name="reg_succ">Tài khoản của bạn đã được tạo thành công!</string>
+    <string name="change_pass_succ">Bạn đã thay đổi mật khẩu thành công!</string>
+    <string name="send_to_tv">"Send To: "</string>
+    <string name="noti_from_group">Nhóm: </string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="content_msg_blank">Tin nhắn trống, hãy nhập gì đó.</string>
+    <string name="messages_noti_tit">Tin nhắn từ</string>
+    <string name="messages_noti_tit_group">Nhóm</string>
+    <string name="grid_item_selected">người được chọn</string>
+    <string name="find_person_et">Tìm ai đó bằng tên</string>
+    <string name="find_friend_et">Tìm bạn bằng tên</string>
+    <string name="sender">Bạn</string>
+    <string name="type_group_name">Nhập tên nhóm thảo luận</string>
+    <string name="remember_login_tv">Nhớ</string>
+    <string name="retreive_fai">Bạn cung cấp thông tin không phù hợp</string>
+    <string name="retreive_info">Tên đăng nhập của bạn là %1$s và mật khẩu đăng nhập là %2$s</string>
+    <string name="change_pass_tv">Thay đổi mật khẩu</string>
+    <string name="add_to_group">Thêm vào nhóm</string>
+    <string name="vibrate_tv">Rung</string>
+    <string name="notification_tv">Thông báo</string>
+    <string name="notification_display_mess">Hiển thị thông báo trên thanh trạng thái</string>
+    <string name="notification_sound_tv">Âm thanh thông báo</string>
+    <string name="select_noti_sound_tv">Chọn âm thanh thông báo</string>
+    <string name="default_sound">Mặc định</string>
+    <string name="suprise_sound">Surprise</string>
+    <string name="springy_sound">Springy</string>
+    <string name="kidding_sound">Kidding</string>
+    <string name="wee_tziu_sound">Wee tziu</string>
+    <string name="martian_gun_sound">Martian gun</string>
+    <string name="friend_tv">Đã kết bạn</string>
+    <string name="add_friend">Thêm bạn</string>
+    <string name="your_old_pass_tv">Mật khẩu cũ của bạn</string>
+    <string name="pass_wrong">Mật khẩu không trùng khớp</string>
+    <string name="add_friend_success">%1$s nay là bạn của bạn.</string>
+    <string name="ask_unfriend">Bạn có chắc chắn hủy kết bạn với người này?</string>
+    <string name="unfriend">Hủy kết bạn</string>
+    <string name="unfriend_succ">Hủy kết bạn thành công!</string>
+    <string name="logout_tv">Đăng xuất</string>
+</resources>
